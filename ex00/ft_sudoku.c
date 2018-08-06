@@ -6,7 +6,7 @@
 /*   By: nmatsumo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/08/05 15:32:16 by nmatsumo          #+#    #+#             */
-/*   Updated: 2018/08/05 23:20:41 by nmatsumo         ###   ########.fr       */
+/*   Updated: 2018/08/05 23:34:26 by nmatsumo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,7 +75,6 @@ void		ft_checkdisplay(int **sudoku)
 void		ft_sudokuget_ans(int x, int y, int num, int **su)
 {
 	int		next;
-	int		check_result;
 
 	if (g_check_result == -1)
 		return ;
@@ -102,7 +101,6 @@ void		ft_sudokuget_ans(int x, int y, int num, int **su)
 void		ft_sudokuget_reverse_ans(int x, int y, int num, int **su)
 {
 	int		next;
-	int		check_result;
 
 	if (g_check_result == -1)
 		return ;
